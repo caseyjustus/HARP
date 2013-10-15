@@ -1,0 +1,24 @@
+<html>
+<body>
+	<h1>HTTP Archive Profiler</h1>
+	<h2 id="environ"></h2>
+	<div id="panelWrapper"></div>
+
+</body>
+	<script data-main="js/main" src="js/lib/require.js"></script>
+	<script>
+		requirejs.config({
+		    shim: {
+		        'lib/backbone': {
+		            deps: ['lib/underscore', 'lib/jquery'],
+		            //Once loaded, use the global 'Backbone' as the
+		            //module value.
+		            exports: 'Backbone'
+		        },
+		        'underscore': {
+		            exports: '_'
+		        }
+		    }
+		});
+	</script>
+</html>

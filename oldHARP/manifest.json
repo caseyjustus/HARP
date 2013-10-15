@@ -1,0 +1,8 @@
+{
+  "manifest_version": 2,
+  "name": "HARP",
+  "description": "HTTP Archive Profiler",
+  "version": "0.1",
+  "minimum_chrome_version": "10.0",
+  "devtools_page": "devtools_page.html"
+}
